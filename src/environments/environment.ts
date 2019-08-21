@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyB8xIuqqnV1lBrY-s1Cl2m4Z9QuZmUKxd4",
+    authDomain: "cleverbeat-e5691.firebaseapp.com",
+    databaseURL: "https://cleverbeat-e5691.firebaseio.com",
+    projectId: "cleverbeat-e5691",
+    storageBucket: "cleverbeat-e5691.appspot.com",
+    messagingSenderId: "17121873144",
+    appId: "1:17121873144:web:d7860b296abe6d0d"
+  }
 };
 
 /*

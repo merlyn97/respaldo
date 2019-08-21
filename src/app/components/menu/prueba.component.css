@@ -1,0 +1,93 @@
+.logo{
+    position: relative;
+    left: 470px;
+    top: 30px;
+}
+
+.logo label{
+    font-family: Montserrat;
+    position: relative;
+    left: 4%;
+}
+.content-btn{
+    width: 150px;
+    height: 150px;
+    background: #4edfe6;
+    display: inline-block;
+}
+
+.content-btn-event{
+    width: 150px;
+    height: 150px;
+    background: #516cf0;
+    display: inline-block;
+}
+
+.con-img{
+    width: 150px;
+    margin: 30px;
+    position: relative;
+    left: 23%;   
+    top: 150px;
+    border-radius: 20%;
+
+}
+
+.img-l{
+    position: relative;
+    left: 25%;
+    top: 20%;
+    display: inline-block;
+}
+
+.img-l:hover{
+    cursor: pointer;
+}
+
+.logout{
+    float: right;
+    position: relative;
+    bottom: 250px;
+    right: 50px;
+    bottom: 400px;
+}
+
+.asi{
+    width: 100%;
+    background-color: #558ed9;
+    height: 30px;
+    position: relative;
+    top: 455px;
+}
+
+.bastones{
+    position: relative;
+    top: 380px;
+    left: 25px;
+}
+
+
+.lab{
+    width: 30px;
+    margin: 90px;
+    display:inline-block;
+    position: relative;
+    left: 280px;
+    height: 20px;;
+}
+
+.lab label{
+    color: #969696;
+}
+
+.cont-label{
+    position: relative;
+    top: 40px;
+}
+
+.img-top{
+    position: relative;
+    top: 100px;
+    right: 50px;
+
+}

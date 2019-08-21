@@ -1,0 +1,61 @@
+.container{
+    width: 100%;
+    height: 90%;
+}
+.input-pass{
+    width: 100%;
+    height: 50px;
+    font-family: Montserrar-Bold;
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #558ed9;
+    border-radius: 5px;
+    background-color: #ededed;
+    position: relative;
+    right: 10%;
+}
+
+  .asi{
+      width: 100%;
+      background-color: #558ed9;
+      height: 30px;
+      position: relative;
+      top: 500px;
+  }
+
+  .bastones{
+      position: relative;
+      top: 430px;
+      left: 25px;
+  }
+
+  .id-pass{ 
+      color: #6c6e71;
+      font-family: Montserrat-Bold;
+      font-size: 15px;
+  }
+  
+
+  .in-top{
+      position: relative;
+      top: 70px;   
+  }
+
+  .btn-top{
+      position: relative;
+      top: 60px;
+  }
+
+  .label-top{
+    position: relative;
+    top: 70px;
+  }
+
+  .img-top{
+    position: relative;
+    top: 60px;
+  }

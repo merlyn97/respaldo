@@ -1,0 +1,39 @@
+  <div class="container">  
+
+  <div class="d-flex justify-content-center img-top">
+    <img src="../assets/logoO.png" width="250px">
+  </div>
+    <br>
+  
+    <form #formCoche="ngForm" (ngSubmit)="onSubmit()">
+      <div class="row">
+        <div class="col-9 col-m-12 d-flex justify-content-center label-top">
+         <label class="id-pass">ID del paciente</label>
+        </div>
+        <div class="col-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-5 col-m-12 d-flex justify-content-center in-top">
+          <input type="text" maxlength="16" class="input-pass" name="id" #id [(ngModel)]="prueba.id" required>
+        </div>
+        <div class="col-4"></div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4 col-m-12 d-flex justify-content-center btn-top">
+              <input type="submit" class="btn btn-primary" value="Buscar">
+          </div>
+          <div class="col-4"></div>
+        </div>
+    </form>
+  </div>        
+  <div class="asi">
+      <div class="d-flex justify-content-center">
+       <img src="../assets/pie.png" width="200px">
+      </div>
+    </div>
+   <img src="../assets/bastones.png" width="50px" class="bastones">
+
